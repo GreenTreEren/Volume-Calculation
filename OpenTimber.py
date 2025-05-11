@@ -1,3 +1,8 @@
+# OpenTimber - A cross-platform GUI application
+# Created by: Eren Özer
+# Version: 1.0
+# License: GNU General Public License v3.0
+
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import math
