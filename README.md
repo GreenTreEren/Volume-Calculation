@@ -9,10 +9,10 @@
   This program does not require additional libraries, simply run 'python3 OpenTimber.py'
 
 ## Formulas:
-  - Huber Formula:
+  - Huber Formula:  
     V = (π / 4) × (d / 100)^2 × L
 
-  Where:
+  Where:  
     V = volume in cubic meters (m³)
     d = diameter at the middle of the log in centimeters (cm)
     L = length of the log in meters (m)
@@ -20,10 +20,10 @@
   This formula assumes the cross-sectional area at the middle of the log represents the average area.
 
 
-  - Smalian Formula:
+  - Smalian Formula:  
     V = (π / 8) × L × [ (d1 / 100)^2 + (d2 / 100)^2 ]
 
-  Where:
+  Where:  
     V = volume in cubic meters (m³)
     d1 = small-end diameter in centimeters (cm)
     d2 = large-end diameter in centimeters (cm)
