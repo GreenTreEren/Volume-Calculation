@@ -34,3 +34,8 @@
 
   This is an on-going project. 
   New features and improvements will be developed continuously.
+
+![Interface](https://github.com/user-attachments/assets/d257e9d1-6ae1-4b6d-a01b-f2db7bab8ae0)
+
+
+![records](https://github.com/user-attachments/assets/186014b5-59c4-44fb-b13d-0d2d52f334e2)
