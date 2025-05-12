@@ -10,24 +10,24 @@
 
 ## Formulas:
   - Huber Formula:  
-    &nbsp;V = (π / 4) × (d / 100)^2 × L
+    &nbsp;&nbsp;&nbsp;V = (π / 4) × (d / 100)^2 × L
 
   Where:  
-    &nbsp;V = volume in cubic meters (m³)  
-    &nbsp;d = diameter at the middle of the log in centimeters (cm)  
-    &nbsp;L = length of the log in meters (m)  
+    &nbsp;&nbsp;&nbsp;V = volume in cubic meters (m³)  
+    &nbsp;&nbsp;&nbsp;d = diameter at the middle of the log in centimeters (cm)  
+    &nbsp;&nbsp;&nbsp;L = length of the log in meters (m)  
 
   This formula assumes the cross-sectional area at the middle of the log represents the average area.  
 
 
   - Smalian Formula:  
-    &nbsp;V = (π / 8) × L × [ (d1 / 100)^2 + (d2 / 100)^2 ]  
+    &nbsp;&nbsp;&nbsp;V = (π / 8) × L × [ (d1 / 100)^2 + (d2 / 100)^2 ]  
 
   Where:  
-    &nbsp;V = volume in cubic meters (m³)  
-    &nbsp;d1 = small-end diameter in centimeters (cm)  
-    &nbsp;d2 = large-end diameter in centimeters (cm)  
-    &nbsp;L = length in meters (m)  
+    &nbsp;&nbsp;&nbsp;V = volume in cubic meters (m³)  
+    &nbsp;&nbsp;&nbsp;d1 = small-end diameter in centimeters (cm)  
+    &nbsp;&nbsp;&nbsp;d2 = large-end diameter in centimeters (cm)  
+    &nbsp;&nbsp;&nbsp;L = length in meters (m)  
 
   This formula averages the cross-sectional areas at both ends of the log.
 
