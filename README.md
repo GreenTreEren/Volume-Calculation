@@ -10,7 +10,7 @@
 
 ## Formulas:
   - Huber Formula
-  Formula:
+\n Formula:
     V = (π / 4) × (d / 100)^2 × L
 
   Where:
