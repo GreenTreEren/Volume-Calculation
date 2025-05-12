@@ -9,8 +9,7 @@
   This program does not require additional libraries, simply run 'python3 OpenTimber.py'
 
 ## Formulas:
-  - Huber Formula
-\n Formula:
+  - Huber Formula:
     V = (π / 4) × (d / 100)^2 × L
 
   Where:
@@ -21,8 +20,7 @@
   This formula assumes the cross-sectional area at the middle of the log represents the average area.
 
 
-  - Smalian Formula
-  Formula:
+  - Smalian Formula:
     V = (π / 8) × L × [ (d1 / 100)^2 + (d2 / 100)^2 ]
 
   Where:
