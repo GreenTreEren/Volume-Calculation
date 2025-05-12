@@ -1,8 +1,3 @@
-# OpenTimber - A cross-platform GUI application
-# Created by: Eren Özer
-# Version: 1.0
-# License: GNU General Public License v3.0
-
 import tkinter as tk
 from tkinter import messagebox, filedialog
 import math
@@ -145,7 +140,7 @@ class OpenTimber:
         # Populate rows
         for idx, (formula, d1, d2, length_m, volume) in enumerate(self.kubaj_list):
             row = tk.Frame(self.results_frame)
-            row.pack(fill=tk.X, pady=2)
+            row.pack(fill=tk.X, pady=2, padx=(70,0))
             text = f"[{formula}] "
             if formula == "Huber":
                 text += f"d={d1}cm, l={length_m}m: {volume:.5f} m³"
@@ -153,7 +148,7 @@ class OpenTimber:
                 text += f"d1={d1}cm, d2={d2}cm, l={length_m}m: {volume:.5f} m³"
             tk.Label(row, text=text).pack(side=tk.LEFT, expand=True)
             del_btn = tk.Button(row, text="✕", fg="black", command=lambda i=idx: self.delete_result(i))
-            del_btn.pack(side=tk.RIGHT, padx=20)
+            del_btn.pack(side=tk.RIGHT, padx=(40, 0))
         # Scroll to latest entry
         self.results_canvas.update_idletasks()
         self.results_canvas.yview_moveto(1.0)
@@ -182,9 +177,9 @@ class OpenTimber:
         if messagebox.askyesno("Clear All", "Are you sure you want to clear all results?"):
             self.kubaj_list.clear()
             self.update_results()
+            self.results_canvas.yview_moveto(0)
 
 if __name__ == "__main__":
     root = tk.Tk()
     app = OpenTimber(root)
     root.mainloop()
-
